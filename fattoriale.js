@@ -1,3 +1,4 @@
-/**
-* Scrivere qui il codice della funzione fattoriale(n)
-**/
+let factorial = function(n) {
+    if (n === 0) return 1;
+    return n * factorial(n - 1);
+};
